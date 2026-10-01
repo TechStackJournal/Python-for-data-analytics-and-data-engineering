@@ -1,0 +1,36 @@
+# Python for Data Analytics & Data Engineering — full course dependencies
+# Install everything at once with: pip install -r requirements.txt
+# Or install incrementally per-module — each module's README lists just its own new packages.
+
+# Module 3 — NumPy
+numpy
+
+# Module 4-5 — Pandas
+pandas
+
+# Module 6 — Visualization
+matplotlib
+seaborn
+plotly
+kaleido          # enables plotly static image export (fig.write_image)
+
+# Module 7 — Databases & APIs
+sqlalchemy
+psycopg2-binary
+python-dotenv
+requests
+tenacity
+
+# Module 8 — Production-grade Python
+pytest
+mypy
+ruff
+black
+pre-commit
+pyyaml
+
+# Module 9 — ETL & data quality
+pandera
+
+# Module 4 — Excel support for pandas
+openpyxl
